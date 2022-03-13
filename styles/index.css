@@ -1,0 +1,133 @@
+#collapseButton2{display:none;}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+#city_back{
+    background-image:url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    height: 440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#view-more {
+    margin-bottom:7%;
+    display: flex;
+    justify-content: center;
+}
+#collapsible {
+    display: none;
+}
+#search{
+        background-color:  #f1f1f1;
+        border-radius: 12px;
+        border:1px solid transparent;
+        padding: 10px;
+        font-size: 16px;
+        color:rgb(132,136,139);
+        width:25%;
+        margin: 0;
+        outline-style: none;
+        }
+       
+        .btn-btn-secondary{
+            background-color: rgb(7, 77, 207);
+            color: white;
+        }
+    .image{
+        height:150px;
+        width:150px;
+        border-radius: 30%;
+        width: 100%;
+        position: relative;
+    }
+    #city_image{
+        display: flex;
+        justify-content: space-evenly;
+       margin-top: 3%;
+       
+      
+    }
+   
+    #extra{
+        display: flex;
+        justify-content: space-evenly;
+       margin-top: 3%;
+
+    }
+    #collapsible{
+        display: none;
+    }
+    
+   
+    .overlay {
+        border-radius: 25%;
+        position:absolute;
+        height:100%;
+        width: 100%;
+        top:0;
+        left:0;
+        background-color: rgba(0,0,0,0.5); 
+       color: #f1f1f1; 
+       opacity: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }   
+      
+    
+
+
+
+
+
+
+.cityCard{
+
+       border-radius: 30%;
+       height: 150px;
+       width: 150px;
+       box-shadow: 10px 10px 10px grey;
+      position: relative;
+      
+       
+    
+}
+.cityCard:hover .overlay{
+    opacity: 1;
+   
+}
+#contact{
+         text-decoration: none; 
+        color: black;
+        }
+       
+     
+    
+    #social{
+        height:20px;
+        width: 22px;
+        
+    }
+   #View{
+            margin-top:1%;
+            margin-bottom: 1%;
+        display:flex;
+        justify-content: center;
+        
+        
+        text-decoration: none;
+        color: black;
+     
+    }
+    
+    

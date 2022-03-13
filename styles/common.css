@@ -1,0 +1,68 @@
+body{
+    display: block;
+    margin: 0px;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
+}
+#header{
+    background-color: rosybrown;
+    position:sticky;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+}
+#footer {
+    background-color: rosybrown;
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login{
+       
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+ color: black;
+margin-right: 2%;}
+#logout{
+ display: flex;
+    justify-content: right;
+    text-decoration: none;
+ color: black;
+margin-right: 2%;
+}
+.logo{margin-left: 1%;}
+.login{
+    margin-right: 2%;
+    float:right;
+}
+
+#social{
+    height:20px;
+    width: 22px;
+}
+#logo_image{
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    float:left;
+    margin-left: 1%;
+}
+#social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+#contacts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    padding: 1%;
+}

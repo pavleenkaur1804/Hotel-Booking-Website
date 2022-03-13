@@ -1,0 +1,16 @@
+.loader{
+    border: 12px solid #f3f3f3;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border-top-color: #444444;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: spin 1s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes spin {
+       
+        100% {transform: rotate(360deg);}
+      }
